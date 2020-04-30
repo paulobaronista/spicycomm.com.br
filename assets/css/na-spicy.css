@@ -1,0 +1,48 @@
+.na-spicy {
+  background-color: #c0c6c9;
+  padding-bottom: 76px;
+  padding-top: 76px;
+}
+
+.na-spicy .info p {
+  font-family: 'Futura Std';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  color: #262424;
+}
+
+.na-spicy .info p span {
+  color: #861115;
+}
+
+.na-spicy .info .t-1 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.na-spicy .info .t-2 {
+  font-size: 39px;
+  line-height: 39px;
+  margin-top: 5px;
+}
+
+.na-spicy .info .t-3 {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.na-spicy .info .t-4 {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.na-spicy .info .mt-1 {
+  margin-top: 30px;
+}
+
+/* Extra Small */
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=na-spicy.css.map */

@@ -55,8 +55,35 @@
     </div>
 </div>
 
+<div class="container-fluid padding-off ciquentaAgenciaDoBrasil">
+    <img class="img-responsive" src="<?= base_url(); ?>assets/images/ciquentaAgenciaDoBrasil.png" alt="">
+</div>
 
+<div class="na-spicy container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 info">
+                <p class="t-1">NA SPICY,</p>
+                <p class="t-1">360º NÃO É UMA VOLTA. </p>
+                <p class="t-2"><span>É IR AO PONTO.</span></p>
 
+                <p class="t-3 mt-1">TRABALHAMOS <span class="t-4">SUA MARCA</span></p>
+                <p class="t-3">E OLHAMOS SEU NEGÓCIO COMO UM TODO,</p>
+                <p class="t-3">DE FORMA <span class="t-4">INTEGRADA E OBJETIVA,</span></p>
+                <p class="t-3">DO COMEÇO AO FIM.</p>
+                <p class="t-3">COMUNICAÇÃO 360º <span>NA PRÁTICA:</span></p>
+                <p class="t-3"><span>CRIATIVA E VIÁVEL, </span>BASEADA EM</p>
+                <p class="t-3"><span>PESQUISA E PLANEJAMENTO, </span></p>
+                <p class="t-3">COM <span>RESULTADOS TANGÍVEIS E MENSURÁVEIS.</span></p>
+                <p class="t-3">TUDO SEM VOLTAS. <span class="t-4">DIRETO AO PONTO.</span></p>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <img class="img-responsive" src="<?= base_url(); ?>assets/images/360.png" alt="É IR AO PONTO. 360º NÃO É UMA VOLTA.">
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
