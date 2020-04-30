@@ -1,0 +1,75 @@
+.navbar {
+  background-color: #0a0405;
+  border-color: #0a0405;
+  border-radius: 0px;
+  margin-bottom: 0;
+  min-height: auto;
+  border: 0px solid transparent;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar .navbar-brand {
+  float: left;
+  height: auto;
+  padding: 0px;
+}
+
+.navbar .navbar-nav > li > a {
+  font-family: 'Futura Std';
+  font-weight: normal;
+  font-style: normal;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: #CC2128;
+}
+
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:focus,
+.navbar .navbar-nav > .active > a:hover {
+  color: #FFF;
+  background-color: transparent;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .navbar {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .navbar .navbar-header {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .navbar .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #CC2128;
+  }
+  .navbar .navbar-toggle {
+    border-color: #CC2128;
+  }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: #CC2128;
+  }
+  .navbar .navbar-toggle:focus,
+  .navbar .navbar-toggle:hover {
+    background-color: transparent;
+  }
+  .navbar .navbar-brand {
+    padding-left: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,86 @@
+.navbar {
+    background-color: #0a0405;
+    border-color: #0a0405;
+    border-radius: 0px;
+    margin-bottom: 0;
+    min-height: auto;
+    border: 0px solid transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    .navbar-brand {
+        float: left;
+        height: auto;
+        padding: 0px;
+    }
+
+    .navbar-nav>li>a {
+        font-family: 'Futura Std';
+        font-weight: normal;
+        font-style: normal;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        color: #CC2128;
+    }
+
+    .navbar-nav>li>a:focus,
+    .navbar-nav>li>a:hover,
+    .navbar-nav>.active>a,
+    .navbar-nav>.active>a:focus,
+    .navbar-nav>.active>a:hover {
+        color: #FFF;
+        background-color: transparent;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .navbar {
+        padding-bottom: 0px;
+        padding-top: 0px;
+
+        .navbar-header {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .navbar-nav>li>a {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .navbar-collapse,
+        .navbar-form {
+            border-color: #CC2128;
+        }
+
+        .navbar-toggle {
+            border-color: #CC2128;
+        }
+
+        .navbar-toggle .icon-bar {
+            background-color: #CC2128;
+        }
+
+        .navbar-toggle:focus,
+        .navbar-toggle:hover {
+            background-color: transparent;
+        }
+
+        .navbar-brand {
+            padding-left: 10px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}
