@@ -1,4 +1,7 @@
 .na-spicy {
+  width: 100%;
+  position: relative;
+  float: left;
   background-color: #c0c6c9;
   padding-bottom: 76px;
   padding-top: 76px;
@@ -42,6 +45,28 @@
 }
 
 /* Extra Small */
+@media (max-width: 767px) {
+  .na-spicy {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .na-spicy .info .t-1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .na-spicy .info .t-2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-top: 15px;
+  }
+  .na-spicy .info .mt-1 {
+    margin-top: 15px;
+  }
+  .na-spicy .logo-360 {
+    margin-top: 20px;
+  }
+}
+
 /* Small */
 /* Medium */
 /* Large */

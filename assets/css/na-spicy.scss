@@ -1,4 +1,7 @@
 .na-spicy {
+    width: 100%;
+    position: relative;
+    float: left;
     background-color: #c0c6c9;
     padding-bottom: 76px;
     padding-top: 76px;
@@ -36,6 +39,7 @@
             font-size: 22px;
             line-height: 22px;
         }
+
         .mt-1 {
             margin-top: 30px;
         }
@@ -43,7 +47,31 @@
 }
 
 /* Extra Small */
-@media(max-width:767px) {}
+@media(max-width:767px) {
+    .na-spicy {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .info {
+            .t-1 {
+                font-size: 20px;
+                line-height: 25px;
+            }
+
+            .t-2 {
+                font-size: 35px;
+                line-height: 35px;
+                margin-top: 15px;
+            }
+            .mt-1 {
+                margin-top: 15px;
+            }
+        }
+        .logo-360 {
+            margin-top: 20px;
+        }
+    }
+}
 
 /* Small */
 @media(min-width:768px) and (max-width:991px) {}

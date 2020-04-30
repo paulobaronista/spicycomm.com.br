@@ -55,8 +55,20 @@
     </div>
 </div>
 
-<div class="container-fluid padding-off ciquentaAgenciaDoBrasil">
-    <img class="img-responsive" src="<?= base_url(); ?>assets/images/ciquentaAgenciaDoBrasil.png" alt="">
+<div class="ciquentaAgenciaDoBrasil">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center info">
+                <p>HÁ QUASE <span>DUAS DÉCADAS,</span> A <span>SPICY</span> TRAZ <span>SABOR</span> E <span>RESULTADOS</span></p>
+                <p>A GRANDES MARCAS DE DIVERSOS SEGMENTOS, CONSTRUINDO CASES NO <span>MERCADO IMOBILIÁRIO,</span></p>
+                <p>DEGUSTANDO SUCESSOS NO <span>MERCADO ALIMENTÍCIO</span> E CAMINHANDO AO LADO DO <span>MERCADO CALÇADISTA.</span></p>
+                <p><span>ENTRETENIMENTO</span> E <span>VIAGENS</span> TAMBÉM FAZEM PARTE DO NOSSO DIA E DÃO MAIS VIDA AO NOSSO TRABALHO.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <img class="img-responsive center-block logo-50" src="<?= base_url(); ?>assets/images/logo-50.png" alt="50 Maiores agências do Brasil">
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="na-spicy container-fluid">
@@ -66,7 +78,6 @@
                 <p class="t-1">NA SPICY,</p>
                 <p class="t-1">360º NÃO É UMA VOLTA. </p>
                 <p class="t-2"><span>É IR AO PONTO.</span></p>
-
                 <p class="t-3 mt-1">TRABALHAMOS <span class="t-4">SUA MARCA</span></p>
                 <p class="t-3">E OLHAMOS SEU NEGÓCIO COMO UM TODO,</p>
                 <p class="t-3">DE FORMA <span class="t-4">INTEGRADA E OBJETIVA,</span></p>
@@ -76,10 +87,9 @@
                 <p class="t-3"><span>PESQUISA E PLANEJAMENTO, </span></p>
                 <p class="t-3">COM <span>RESULTADOS TANGÍVEIS E MENSURÁVEIS.</span></p>
                 <p class="t-3">TUDO SEM VOLTAS. <span class="t-4">DIRETO AO PONTO.</span></p>
-
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <img class="img-responsive" src="<?= base_url(); ?>assets/images/360.png" alt="É IR AO PONTO. 360º NÃO É UMA VOLTA.">
+                <img class="img-responsive logo-360" src="<?= base_url(); ?>assets/images/360.png" alt="É IR AO PONTO. 360º NÃO É UMA VOLTA.">
             </div>
         </div>
     </div>
