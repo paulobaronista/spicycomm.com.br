@@ -1,0 +1,108 @@
+footer {
+  width: 100%;
+  position: relative;
+  float: left;
+  background: url(../images/bg-footer.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer .redes {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+footer .redes a {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+footer .legal p {
+  font-family: 'Futura Std';
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer .box-1 {
+  font-family: 'Futura Std';
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer .box-1 .t-1 {
+  font-size: 15px;
+  line-height: 15px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+
+footer .box-1 .t-2 {
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+footer .box-1 .t-2 span {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+footer .box-1 .t-3 {
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+footer .box-1 .t-4 {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+footer .box-1 .t-4 span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer .box-1 .t-4 .dt {
+  font-size: 30px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer {
+    background: #a40001;
+  }
+  footer .box-1 {
+    text-align: center;
+  }
+  footer .box-1 .t-1 {
+    padding-left: 0px;
+  }
+  footer .box-1 .t-2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  footer .box-1 .t-2 span {
+    font-size: 30px;
+  }
+  footer .box-1 .t-3 {
+    margin-top: 30px;
+  }
+  footer .box-1 .t-4 span {
+    font-size: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=footer.css.map */

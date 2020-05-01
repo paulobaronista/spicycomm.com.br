@@ -3,10 +3,12 @@
     position: relative;
     float: left;
     background-color: #c0c6c9;
-    padding-bottom: 76px;
+    padding-bottom: 56px;
     padding-top: 76px;
 
     .info {
+        padding-top: 50px;
+
         p {
             font-family: 'Futura Std';
             text-transform: uppercase;
@@ -46,13 +48,46 @@
     }
 }
 
+.tempero {
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: #000000;
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+    p {
+        font-family: 'Futura Std';
+        text-transform: uppercase;
+        font-weight: bold;
+        font-style: normal;
+        color: #fff;
+        span {
+            color: #861115;
+        }
+    }
+
+    .t-1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .t-2 {
+        font-size: 49px;
+        line-height: 49px;
+        margin-top: 5px;
+    }
+}
+
 /* Extra Small */
 @media(max-width:767px) {
     .na-spicy {
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
 
         .info {
+            padding-top: 0px;
+
             .t-1 {
                 font-size: 20px;
                 line-height: 25px;
@@ -63,12 +98,32 @@
                 line-height: 35px;
                 margin-top: 15px;
             }
+            .t-3 {
+                font-size: 15px;
+                line-height: 25px;
+            }
+
             .mt-1 {
                 margin-top: 15px;
             }
         }
+
         .logo-360 {
-            margin-top: 20px;
+            margin: 20px auto 0;
+        }
+    }
+    .tempero {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        .t-1 {
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+        .t-2 {
+            font-size: 45px;
+            line-height: 45px;
+            margin-top: 15px;
         }
     }
 }

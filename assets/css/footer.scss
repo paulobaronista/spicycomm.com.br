@@ -1,0 +1,114 @@
+footer {
+    width: 100%;
+    position: relative;
+    float: left;
+    background: url(../images/bg-footer.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 25px;
+
+    p {
+        color: #fff;
+    }
+    .redes {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        a {
+            display: inline-block;
+            margin: 0 auto;
+        }
+    }
+    .legal {
+        p {
+            font-family: 'Futura Std';
+            font-weight: bold;
+            font-style: normal;
+        }
+    }
+
+    .box-1 {
+        font-family: 'Futura Std';
+        text-transform: uppercase;
+        font-weight: normal;
+        font-style: normal;
+
+        .t-1 {
+            font-size: 15px;
+            line-height: 15px;
+            padding-bottom: 5px;
+            padding-left: 50px;
+        }
+
+        .t-2 {
+            font-size: 30px;
+            line-height: 35px;
+            text-align: center;
+
+            span {
+                font-size: 35px;
+                font-weight: bold;
+            }
+        }
+
+        .t-3 {
+            font-size: 15px;
+            line-height: 15px;
+            text-align: center;
+            padding-bottom: 8px;
+        }
+
+        .t-4 {
+            font-size: 15px;
+            line-height: 30px;
+
+            span {
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .dt {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    footer {
+        background: #a40001;
+        .box-1 {
+            text-align: center;
+            .t-1 {
+                padding-left: 0px;
+            }
+            .t-2 {
+                font-size: 25px;
+                line-height: 30px;
+    
+                span {
+                    font-size: 30px;
+                }
+            }
+            .t-3 {
+                margin-top: 30px;
+            }
+            .t-4 {
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

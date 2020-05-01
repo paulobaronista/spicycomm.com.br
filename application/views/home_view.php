@@ -74,7 +74,7 @@
 <div class="na-spicy container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 info">
+            <div class="col-xs-12 col-sm-6 col-md-6 info">
                 <p class="t-1">NA SPICY,</p>
                 <p class="t-1">360º NÃO É UMA VOLTA. </p>
                 <p class="t-2"><span>É IR AO PONTO.</span></p>
@@ -88,51 +88,51 @@
                 <p class="t-3">COM <span>RESULTADOS TANGÍVEIS E MENSURÁVEIS.</span></p>
                 <p class="t-3">TUDO SEM VOLTAS. <span class="t-4">DIRETO AO PONTO.</span></p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <img class="img-responsive logo-360" src="<?= base_url(); ?>assets/images/360.png" alt="É IR AO PONTO. 360º NÃO É UMA VOLTA.">
             </div>
         </div>
     </div>
 </div>
 
+<div class="container-fluid padding-off">
+    <img class="img-responsive" src="<?= base_url(); ?>assets/images/linha.jpg" alt="Linha">
+</div>
 
-
-
-<div class="col-xs-12 col-sm-12 col-md-12 padding-off">
-    <form method="post" role="form" action="<?php echo base_url("contato") ?>">
-        <div class="group-form">
-            <div class="form-group">
-                <label for="nome">Nome*</label>
-                <input id="nome" type="text" class="nome form-control" name="nome" required="required" />
+<div class="tempero">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <p class="t-1">Conheça um pouco do nosso</p>
+                <p class="t-2"><span>Tempero</span></p>
             </div>
-            <div class="form-group">
-                <label for="email">Email*</label>
-                <input id="email" type="email" class="email form-control" name="email" required="required" />
-            </div>
-            <div class="form-group">
-                <label for="telefone">Telefone</label>
-                <input id="telefone" class="phone form-control" type="tel" name="phone" />
-            </div>
-            <div class="form-group">
-                <label for="form-mensagem">Mensagem</label>
-                <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss"></textarea>
-            </div>
-            <button type="submit" class="btn_enviar enviar btn center-block" title="enviar" name="enviar_email" value="enviar">Enviar</button>
         </div>
-    </form>
+    </div>
 </div>
 
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center padding-off">
-                <p>COPYRIGHT © - TODOS OS DIREITOS RESERVADOS </p>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 padding-off box-1">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <p class="t-1">FALANDO NISSO, COMO ESTÁ</p>
+                    <p class="t-2">O SABOR DO<br>
+                        SEU NEGÓCIO <span>HOJE?</span></p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <p class="t-3">VENHA EXPERIMENTAR</p>
+                    <p class="t-4"><span class="dt">NOSSAS IDEIAS</span><br>
+                    E PROVAR <span>NOVOS RESULTADOS.</span></p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 redes">
+                <a href=""><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-facebook.png" alt="Facebook"></a>
+                <a href=""><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-instagram.png" alt="Instagram"></a>
+                <a href=""><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-linkedIn.png" alt="LinkedIn"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center legal">
+                <p>(11) 3842-0723 | contato@spicycomm.com.br | renata@spicycomm.com.br</p>
             </div>
         </div>
     </div>
 </footer>
-
-<?php
-if (isset($email_enviado))
-    echo $email_enviado;
-?>
