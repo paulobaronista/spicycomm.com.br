@@ -11,21 +11,21 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="">HOME</a></li>
-                <li><a href="">SOBRE NÓS</a></li>
-                <li><a href="">NOSSOS TRABALHOS</a></li>
-                <li><a href="">CONTATO</a></li>
+                <li><a class="scrollink active" href="#home">HOME</a></li>
+                <li><a class="scrollink" href="#sobre-nos">SOBRE NÓS</a></li>
+                <li><a class="scrollink" href="#nossos-trabalhos">NOSSOS TRABALHOS</a></li>
+                <li><a class="scrollink" href="#contato">CONTATO</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<div class="carousel slide" data-ride="carousel">
+<div id="home" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <div align="center" class="embed-responsive embed-responsive-4by3">
-                <video autoplay loop class="embed-responsive-item" width="100%" height="90%">
+                <video autoplay loop muted class="embed-responsive-item" width="100%" height="90%">
                     <source src="https://ak.picdn.net/shutterstock/videos/1036565651/preview/stock-footage-super-slow-motion-shot-of-flying-red-chilli-peppers-in-the-air-at-fps.webm" type="video/webm">
                     <source src="https://ak.picdn.net/shutterstock/videos/1036565651/preview/stock-footage-super-slow-motion-shot-of-flying-red-chilli-peppers-in-the-air-at-fps.mp4" type="video/mp4">
                 </video>
@@ -33,7 +33,7 @@
         </div>
         <div class="item">
             <div align="center" class="embed-responsive embed-responsive-4by3">
-                <video autoplay loop class="embed-responsive-item" width="100%" height="90%">
+                <video autoplay loop muted class="embed-responsive-item" width="100%" height="90%">
                     <source src="https://ak.picdn.net/shutterstock/videos/18514247/preview/stock-footage-red-triangle-polygons-computer-generated-seamless-loop-geometric-background-k-uhd-x.webm" type="video/webm">
                     <source src="https://ak.picdn.net/shutterstock/videos/18514247/preview/stock-footage-red-triangle-polygons-computer-generated-seamless-loop-geometric-background-k-uhd-x.mp4" type="video/mp4">
                 </video>
@@ -43,7 +43,7 @@
     <img class="img-responsive chamada" src="<?= base_url(); ?>assets/images/chamada.png" alt="Ideia & Resultados. Experimente.">
 </div>
 
-<div class="dezoitoanos">
+<div id="sobre-nos" class="dezoitoanos">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
@@ -71,7 +71,7 @@
     </div>
 </div>
 
-<div class="na-spicy container-fluid">
+<div id="nossos-trabalhos" class="na-spicy container-fluid">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 info">
@@ -110,7 +110,61 @@
     </div>
 </div>
 
-<footer>
+<div class="jobs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                <div class="container-img">
+                    <div class="box_200_400">
+                        <div class="box_200_200 bg-degrade-1"></div>
+                    </div>
+                    <div class="box_200_400"><a class="bg-img zeca" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    <div class="box_200_400">
+                        <div class="box_200_200 bg-cinza"></div>
+                        <div class="box_200_200"><a class="bg-img monica" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    </div>
+                    <div class="box_200_400">
+                        <div class="box_200_200"><a class="bg-img bruno" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                        <div class="box_200_200 bg-cinza"></div>
+                    </div>
+                </div>
+
+                <div class="container-img">
+                    <div class="box_200_400"><a class="bg-img maison" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    <div class="box_200_400">
+                        <div class="box_200_200 bg-degrade-2"></div>
+                        <div class="box_200_200"><a class="bg-img edificio" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    </div>
+                    <div class="box_200_400">
+                        <div class="box_200_200 bg-cinza"></div>
+                        <div class="box_200_200 bg-degrade-3"></div>
+                    </div>
+                    <div class="box_200_400"><a class="bg-img casal" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                </div>
+
+                <div class="container-img">
+                    <div class="box_200_400">
+                        <div class="box_200_200 bg-degrade-4"></div>
+                    </div>
+                    <div class="box_200_400"><a class="bg-img seleto" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    <div class="box_200_400">
+                        <div class="box_200_200 bg-cinza"></div>
+                        <div class="box_200_200 bg-degrade-5"></div>
+                    </div>
+                    <div class="box_200_400">
+                        <div class="box_200_200"><a class="bg-img decolar" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-4 col-xs-offset-4 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 margin-top-30">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pimenta.jpg" alt="Pimenta">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer id="contato">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 padding-off box-1">
@@ -122,7 +176,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <p class="t-3">VENHA EXPERIMENTAR</p>
                     <p class="t-4"><span class="dt">NOSSAS IDEIAS</span><br>
-                    E PROVAR <span>NOVOS RESULTADOS.</span></p>
+                        E PROVAR <span>NOVOS RESULTADOS.</span></p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 redes">

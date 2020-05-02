@@ -29,9 +29,9 @@
 
 .navbar .navbar-nav > li > a:focus,
 .navbar .navbar-nav > li > a:hover,
-.navbar .navbar-nav > .active > a,
-.navbar .navbar-nav > .active > a:focus,
-.navbar .navbar-nav > .active > a:hover {
+.navbar .navbar-nav .active,
+.navbar .navbar-nav .active:focus,
+.navbar .navbar-nav .active:hover {
   color: #FFF;
   background-color: transparent;
 }
