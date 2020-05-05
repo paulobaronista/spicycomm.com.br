@@ -565,7 +565,8 @@ footer {
   padding-bottom: 25px;
 }
 
-footer p {
+footer p,
+footer a {
   color: #fff;
 }
 
@@ -590,6 +591,11 @@ footer .legal p {
   font-style: normal;
 }
 
+footer .legal a:hover,
+footer .legal a:focus {
+  color: #fff;
+}
+
 footer .box-1 {
   font-family: 'Futura Std';
   text-transform: uppercase;
@@ -601,7 +607,7 @@ footer .box-1 .t-1 {
   font-size: 15px;
   line-height: 15px;
   padding-bottom: 5px;
-  padding-left: 50px;
+  padding-left: 21%;
 }
 
 footer .box-1 .t-2 {
@@ -618,8 +624,8 @@ footer .box-1 .t-2 span {
 footer .box-1 .t-3 {
   font-size: 15px;
   line-height: 15px;
-  text-align: center;
   padding-bottom: 8px;
+  padding-left: 13%;
 }
 
 footer .box-1 .t-4 {
@@ -628,12 +634,8 @@ footer .box-1 .t-4 {
 }
 
 footer .box-1 .t-4 span {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-footer .box-1 .t-4 .dt {
   font-size: 30px;
+  font-weight: bold;
 }
 
 /* Extra Small */

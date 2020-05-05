@@ -8,7 +8,8 @@ footer {
     padding-top: 30px;
     padding-bottom: 25px;
 
-    p {
+    p,
+    a {
         color: #fff;
     }
     .redes {
@@ -29,6 +30,10 @@ footer {
             font-weight: bold;
             font-style: normal;
         }
+        a:hover,
+        a:focus {
+            color: #fff;
+        }
     }
 
     .box-1 {
@@ -41,7 +46,7 @@ footer {
             font-size: 15px;
             line-height: 15px;
             padding-bottom: 5px;
-            padding-left: 50px;
+            padding-left: 21%;
         }
 
         .t-2 {
@@ -58,8 +63,8 @@ footer {
         .t-3 {
             font-size: 15px;
             line-height: 15px;
-            text-align: center;
             padding-bottom: 8px;
+            padding-left: 13%;
         }
 
         .t-4 {
@@ -67,12 +72,8 @@ footer {
             line-height: 30px;
 
             span {
-                font-size: 25px;
-                font-weight: bold;
-            }
-
-            .dt {
                 font-size: 30px;
+                font-weight: bold;
             }
         }
     }

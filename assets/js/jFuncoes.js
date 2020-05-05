@@ -1,9 +1,17 @@
+$(document).ready(function () {
+    $('.modal').on('hide.bs.modal', function() {
+        var memory = $(this).html();
+        $(this).html(memory);
+   });
+});
+
 // Script Carousel
 $(document).ready(function () {
     $('.carousel').carousel({
         interval: 10000
     });
 });
+
 // Script Scroll OnPage
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
