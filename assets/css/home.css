@@ -14,12 +14,12 @@
   width: 100%;
   position: relative;
   float: left;
-  background: url(../images/bg-18anos.jpg) no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-image: url(../images/bg-pimenta-3.jpg), url(../images/bg-pimenta-1.jpg), url(../images/bg-pimenta-2.jpg);
+  background-position: right top, 10% top, left bottom;
+  background-repeat: no-repeat, no-repeat, no-repeat;
   margin-top: -4px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 80px;
 }
 
 .dezoitoanos p {
@@ -39,19 +39,19 @@
 }
 
 .dezoitoanos p:nth-child(1) {
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 70px;
+  line-height: 70px;
 }
 
 .dezoitoanos p:nth-child(2) {
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 40px;
   margin-top: 10px;
 }
 
 .dezoitoanos p:nth-child(3) {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 50px;
+  line-height: 50px;
   margin-top: 15px;
 }
 
@@ -62,8 +62,8 @@
   background: url(../images/bg-50.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .ciquentaAgenciaDoBrasil .info p {
@@ -72,8 +72,8 @@
   font-weight: 500;
   font-style: normal;
   color: #fff;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 25px;
   margin-bottom: 10px;
 }
 
@@ -81,8 +81,8 @@
   font-family: 'Futura Std';
   font-weight: bold;
   font-style: normal;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 25x;
+  line-height: 25px;
 }
 
 .ciquentaAgenciaDoBrasil .logo-50 {

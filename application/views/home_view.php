@@ -49,7 +49,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p>18 anos</p>
                 <p>Temperando negócios e provando</p>
-                <p>Ótimos Resultados</p>
+                <p>Ótimos Resultados.</p>
             </div>
         </div>
     </div>
@@ -104,7 +104,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p class="t-1">Conheça um pouco do nosso</p>
-                <p class="t-2"><span>Tempero</span></p>
+                <p class="t-2"><span>Tempero.</span></p>
             </div>
         </div>
     </div>
@@ -117,46 +117,56 @@
                 <div class="container-img">
                     <div class="box_200_400">
                         <div class="box_200_200 bg-degrade-1"></div>
+                        <div class="box_200_200"><a class="bg-img hotmilhas" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
                     </div>
-                    <div class="box_200_400"><a class="bg-img zeca" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    <div class="box_200_400"><a class="bg-img canaan" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
                     <div class="box_200_400">
-                        <div class="box_200_200 bg-cinza"></div>
-                        <div class="box_200_200"><a class="bg-img monica" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                        <div class="box_200_200"><a class="bg-img terrara" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                        <div class="box_200_200"><a class="bg-img merolar" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
                     </div>
                     <div class="box_200_400">
-                        <div class="box_200_200"><a class="bg-img bruno" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
-                        <div class="box_200_200 bg-cinza"></div>
+                        <div class="box_200_200 bg-degrade-4"></div>
+                        <div class="box_200_200"><a class="bg-img maisonhelena" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
                     </div>
                 </div>
 
                 <div class="container-img">
-                    <div class="box_200_400"><a class="bg-img maison" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    <div class="box_200_400"><a class="bg-img milhas123" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
                     <div class="box_200_400">
                         <div class="box_200_200 bg-degrade-2"></div>
-                        <div class="box_200_200"><a class="bg-img edificio" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                        <div class="box_200_200"><a class="bg-img varanda" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
                     </div>
                     <div class="box_200_400">
-                        <div class="box_200_200 bg-cinza"></div>
+                        <div class="box_200_200"><a class="bg-img copacabana" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
                         <div class="box_200_200 bg-degrade-3"></div>
                     </div>
-                    <div class="box_200_400"><a class="bg-img casal" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    <div class="box_200_400"><a class="bg-img sorocaba123milhas" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
                 </div>
 
                 <div class="container-img">
                     <div class="box_200_400">
                         <div class="box_200_200 bg-degrade-4"></div>
+                        <div class="box_200_200"><a class="bg-img beehappy" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
                     </div>
-                    <div class="box_200_400"><a class="bg-img seleto" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                    <div class="box_200_400"><a class="bg-img seleto" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
                     <div class="box_200_400">
-                        <div class="box_200_200 bg-cinza"></div>
+                        <div class="box_200_200"><a class="bg-img fix" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
                         <div class="box_200_200 bg-degrade-5"></div>
                     </div>
                     <div class="box_200_400">
-                        <div class="box_200_200"><a class="bg-img decolar" href="#" data-toggle="modal" data-target="#exampleModal"></a></div>
+                        <div class="box_200_200"><a class="bg-img just" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
+                        <div class="box_200_200"><a class="bg-img pastelandia" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
                     </div>
                 </div>
 
-                <div class="col-xs-4 col-xs-offset-4 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 margin-top-30">
+                <div class="container-img">
+                    <div class="box_200_200_25 bg-degrade-1"></div>
+                    <div class="box_200_200_25"><a class="bg-img bouts" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
+                    <div class="box_200_200_25"><a class="bg-img terrasdaalvorada" href="#" data-toggle="modal" data-target="#exampleModalVideo"></a></div>
+                    <div class="box_200_200_25 bg-degrade-3"></div>
+                </div>
+
+                <div class="col-xs-6 col-xs-offset-3 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 margin-top-30">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pimenta.jpg" alt="Pimenta">
                 </div>
             </div>
@@ -180,9 +190,9 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 redes">
-                <a href=""><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-facebook.png" alt="Facebook"></a>
-                <a href=""><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-instagram.png" alt="Instagram"></a>
-                <a href=""><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-linkedIn.png" alt="LinkedIn"></a>
+                <a href="https://www.facebook.com/spicycomm/" target="_blank"><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/spicycomm/?hl=pt-br" target="_blank"><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-instagram.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/company/spicy-comm-/?viewAsMember=true" target="_blank"><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-linkedIn.png" alt="LinkedIn"></a>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center legal">
                 <p>(11) 3842-0723 | contato@spicycomm.com.br | renata@spicycomm.com.br</p>

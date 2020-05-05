@@ -195,8 +195,11 @@ p {
     margin: 0;
 }
 
-
 .modal {
+    background: url(../images/bg-modal.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+
     .modal-body {
         padding: 0px;
     }
@@ -208,20 +211,29 @@ p {
     }
 
     .close {
-        float: right;
-        font-size: 30px;
-        font-weight: 100;
-        line-height: 1;
-        color: #fff;
-        text-shadow: 0 1px 0 #fff;
+        text-shadow: none;
         opacity: 1;
         position: absolute;
-        right: 0px;
-        top: -30px;
-        z-index: 100;
+        left: 5%;
+        top: 5%;
+        z-index: 999;
     }
 
     .modal-dialog {
-        margin: 90px auto;
+        margin: 9% auto;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .modal {
+        background: url(../images/bg-modal-mobile.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        .modal-dialog {
+            margin: 110px auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
 }

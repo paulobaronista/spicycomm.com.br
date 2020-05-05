@@ -1,10 +1,16 @@
+// Script Carousel
+$(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 10000
+    });
+});
 // Script Scroll OnPage
-$(document).ready(function() {
+$(document).ready(function () {
     $(document).on("scroll", onScroll);
-    $('.scrollink').on('click', function(e) {
+    $('.scrollink').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
-        $('.scrollink').each(function() {
+        $('.scrollink').each(function () {
             $(this).removeClass('active');
         })
         $(this).addClass('active');
@@ -13,7 +19,7 @@ $(document).ready(function() {
         $target = $(target);
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 500, 'swing', function() {
+        }, 500, 'swing', function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
@@ -22,7 +28,7 @@ $(document).ready(function() {
 
 function onScroll(event) {
     var scrollPos = $(document).scrollTop();
-    $('#menuCenter .scrollink').each(function() {
+    $('#menuCenter .scrollink').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
@@ -34,19 +40,19 @@ function onScroll(event) {
     });
 }
 
-$(function(){
-	$('.nome').clear();
-	$('.email').clear();
-	$('.phone').clear();
-	$('.msg').clear();
+$(function () {
+    $('.nome').clear();
+    $('.email').clear();
+    $('.phone').clear();
+    $('.msg').clear();
 
-	$('.btn_enviar').on('click', function(){
-		var n, e, t, m, s;
-		var msg = "";
-		n = $('.nome').val();
-		e = $('.email').val();
-		t = $('.phone').val();
-		m = $('.msg').val();
-		});
+    $('.btn_enviar').on('click', function () {
+        var n, e, t, m, s;
+        var msg = "";
+        n = $('.nome').val();
+        e = $('.email').val();
+        t = $('.phone').val();
+        m = $('.msg').val();
+    });
 
 });

@@ -24,6 +24,10 @@ footer .redes a {
   margin: 0 auto;
 }
 
+footer .redes img {
+  max-width: 80%;
+}
+
 footer .legal p {
   font-family: 'Futura Std';
   font-weight: bold;
@@ -79,7 +83,9 @@ footer .box-1 .t-4 .dt {
 /* Extra Small */
 @media (max-width: 767px) {
   footer {
-    background: #a40001;
+    background: url(../images/bg-footer-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
   footer .box-1 {
     text-align: center;

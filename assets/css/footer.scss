@@ -19,6 +19,9 @@ footer {
             display: inline-block;
             margin: 0 auto;
         }
+        img {
+            max-width: 80%;
+        }
     }
     .legal {
         p {
@@ -78,7 +81,9 @@ footer {
 /* Extra Small */
 @media(max-width:767px) {
     footer {
-        background: #a40001;
+        background: url(../images/bg-footer-mobile.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
         .box-1 {
             text-align: center;
             .t-1 {
