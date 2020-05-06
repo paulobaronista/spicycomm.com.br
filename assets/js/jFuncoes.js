@@ -1,8 +1,16 @@
+
 $(document).ready(function () {
-    $('.modal').on('hide.bs.modal', function() {
+    setTimeout(function () {
+        $("#loader").slideUp("slow");
+    }, 1000);
+    return false;
+});
+
+$(document).ready(function () {
+    $('.modal').on('hide.bs.modal', function () {
         var memory = $(this).html();
         $(this).html(memory);
-   });
+    });
 });
 
 // Script Carousel

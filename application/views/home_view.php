@@ -26,16 +26,16 @@
         <div class="item active">
             <div align="center" class="embed-responsive embed-responsive-4by3">
                 <video autoplay loop muted class="embed-responsive-item" width="100%" height="90%">
-                    <source src="https://ak.picdn.net/shutterstock/videos/1036565651/preview/stock-footage-super-slow-motion-shot-of-flying-red-chilli-peppers-in-the-air-at-fps.webm" type="video/webm">
-                    <source src="https://ak.picdn.net/shutterstock/videos/1036565651/preview/stock-footage-super-slow-motion-shot-of-flying-red-chilli-peppers-in-the-air-at-fps.mp4" type="video/mp4">
+                    <source src="<?= base_url(); ?>assets/videos/pimentas.webm" type="video/webm">
+                    <source src="<?= base_url(); ?>assets/videos/pimentas.mov" type="video/mp4">
                 </video>
             </div>
         </div>
         <div class="item">
             <div align="center" class="embed-responsive embed-responsive-4by3">
                 <video autoplay loop muted class="embed-responsive-item" width="100%" height="90%">
-                    <source src="https://ak.picdn.net/shutterstock/videos/18514247/preview/stock-footage-red-triangle-polygons-computer-generated-seamless-loop-geometric-background-k-uhd-x.webm" type="video/webm">
-                    <source src="https://ak.picdn.net/shutterstock/videos/18514247/preview/stock-footage-red-triangle-polygons-computer-generated-seamless-loop-geometric-background-k-uhd-x.mp4" type="video/mp4">
+                    <source src="<?= base_url(); ?>assets/videos/texturas.webm" type="video/webm">
+                    <source src="<?= base_url(); ?>assets/videos/texturas.mov" type="video/mp4">
                 </video>
             </div>
         </div>
