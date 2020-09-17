@@ -239,6 +239,36 @@
     </div>
 </div>
 
+<div class="modal modal-video" id="videoChampions" tabindex="-1" role="dialog" aria-labelledby="videoChampions">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <img class="img-responsive" src="<?= base_url(); ?>assets/images/seta.png" alt="seta">
+    </button>
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/isG4EqkvAH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-video" id="videoBrasileirao" tabindex="-1" role="dialog" aria-labelledby="videoBrasileirao">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <img class="img-responsive" src="<?= base_url(); ?>assets/images/seta.png" alt="seta">
+    </button>
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y-0oNjZXgvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Modal Video + Imagem -->
 <div class="modal" id="exampleModalVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalVideo">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">

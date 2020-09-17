@@ -116,7 +116,7 @@
 }
 
 .jobs .milhas123 {
-  background: url(../images/milhas123.jpg) no-repeat;
+  background: url(../images/milhas123-01.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -134,7 +134,7 @@
 }
 
 .jobs .sorocaba123milhas {
-  background: url(../images/sorocaba123milhas.jpg) no-repeat;
+  background: url(../images/sorocaba123milhas-01.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -177,6 +177,18 @@
 
 .jobs .terrasdaalvorada {
   background: url(../images/terrasdaalvorada.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jobs .brasileirao {
+  background: url(../images/brasileirao.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jobs .champions {
+  background: url(../images/champions.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }

@@ -131,7 +131,14 @@
                 </div>
 
                 <div class="container-img">
-                    <div class="box_200_400"><a class="bg-img milhas123" href="#" data-toggle="modal" data-target="#videoMilhas123"></a></div>
+                    <div class="box_200_400">
+                        <div class="box_200_200">
+                            <a class="bg-img milhas123" href="#" data-toggle="modal" data-target="#videoMilhas123"></a>
+                        </div>
+                        <div class="box_200_200">
+                            <a class="bg-img champions" href="#" data-toggle="modal" data-target="#videoChampions"></a>
+                        </div>
+                    </div>
                     <div class="box_200_400">
                         <div class="box_200_200 bg-degrade-2"></div>
                         <div class="box_200_200"><a class="bg-img varanda" href="#" data-toggle="modal" data-target="#videoVaranda"></a></div>
@@ -140,7 +147,14 @@
                         <div class="box_200_200"><a class="bg-img copacabana" href="#" data-toggle="modal" data-target="#videoCopacabana"></a></div>
                         <div class="box_200_200 bg-degrade-3"></div>
                     </div>
-                    <div class="box_200_400"><a class="bg-img sorocaba123milhas" href="#" data-toggle="modal" data-target="#videoSorocaba123milhas"></a></div>
+                    <div class="box_200_400">
+                        <div class="box_200_200">
+                            <a class="bg-img sorocaba123milhas" href="#" data-toggle="modal" data-target="#videoSorocaba123milhas"></a>
+                        </div>
+                        <div class="box_200_200">
+                            <a class="bg-img brasileirao" href="#" data-toggle="modal" data-target="#videoBrasileirao"></a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="container-img">
