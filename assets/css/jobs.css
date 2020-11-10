@@ -1,5 +1,8 @@
 .jobs {
   width: 100%;
+  background: url(../images/bg-jobs.jpg) no-repeat;
+  background-position: center bottom;
+  background-size: contain;
   position: relative;
   float: left;
   padding-top: 30px;
@@ -8,6 +11,11 @@
 
 .jobs .container-img {
   margin: 0 auto;
+}
+
+.jobs .pimenta {
+  margin-top: 70px;
+  margin-bottom: 130px;
 }
 
 .jobs .box_200_200 {
@@ -38,34 +46,12 @@
   background-color: #c0c6c9;
 }
 
-.jobs .bg-degrade-1 {
-  background: url(../images/bg-degrade-1.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.jobs .bg-degrade-2 {
-  background: url(../images/bg-degrade-2.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.jobs .bg-degrade-3 {
-  background: url(../images/bg-degrade-3.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.jobs .bg-degrade-4 {
-  background: url(../images/bg-degrade-4.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
+.jobs .bg-degrade-1,
+.jobs .bg-degrade-2,
+.jobs .bg-degrade-3,
+.jobs .bg-degrade-4,
 .jobs .bg-degrade-5 {
-  background: url(../images/bg-degrade-5.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #9a1311;
 }
 
 .jobs .bg-img {
@@ -74,15 +60,11 @@
   display: block;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
 }
 
 .jobs .bg-img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
 }
 
 .jobs .canaan {
@@ -193,6 +175,30 @@
   background-size: cover;
 }
 
+.jobs .lucianoHuck {
+  background: url(../images/lucianoHuck.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jobs .turnner {
+  background: url(../images/tunner.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jobs .zabo {
+  background: url(../images/zabo.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jobs .panesse {
+  background: url(../images/panesse.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .jobs {
@@ -202,6 +208,10 @@
   }
   .jobs .container-img {
     width: 100%;
+  }
+  .jobs .pimenta {
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   .jobs .box_200_200 {
     height: 100px;

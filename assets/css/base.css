@@ -176,9 +176,7 @@ p {
 }
 
 .modal {
-  background: url(../images/bg-modal.jpg) no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-color: #9a1311;
 }
 
 .modal .modal-body {

@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?= base_url(); ?>assets/images/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="<?= base_url(); ?>assets/images/apple-touch-icon-57-precomposed.png">
     <link rel="image_src" href="<?= base_url(); ?>assets/images/thumb-facebook.jpg" />
-    <meta name="theme-color" content="#FFF" />
+    <meta name="theme-color" content="#9a1311" />
     <!-- property (faz funcionar no linkedin) -->
     <meta property="og:title" content="Spicycomm | Spicyweb" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/thumb-facebook.jpg" />
@@ -33,14 +33,14 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=1.2');
+    echo link_tag('assets/css/style.css');
     ?>
 </head>
 
 <body>
 
     <!-- Load -->
-    <div id="loader">
+    <!-- <div id="loader">
         <div id="bg_loader">
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo.png" title="Spicycomm - comunicação estimulante" alt="Spicycomm - comunicação estimulante" />
             <div class="windows8">
@@ -61,5 +61,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Load -->

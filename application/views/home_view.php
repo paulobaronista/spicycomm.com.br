@@ -30,39 +30,42 @@
                     <source src="<?= base_url(); ?>assets/videos/pimentas.mov" type="video/mp4">
                 </video>
             </div>
+            <img class="img-responsive chamada" src="<?= base_url(); ?>assets/images/chamada.png" alt="Ideia & Resultados. Experimente.">
         </div>
-        <div class="item">
+        <div class="item" style="background-color: #9a1311;">
             <div align="center" class="embed-responsive embed-responsive-4by3">
-                <video autoplay loop muted class="embed-responsive-item" width="100%" height="90%">
-                    <source src="<?= base_url(); ?>assets/videos/texturas.webm" type="video/webm">
-                    <source src="<?= base_url(); ?>assets/videos/texturas.mov" type="video/mp4">
-                </video>
-            </div>
-        </div>
-    </div>
-    <img class="img-responsive chamada" src="<?= base_url(); ?>assets/images/chamada.png" alt="Ideia & Resultados. Experimente.">
-</div>
-
-<div id="sobre-nos" class="dezoitoanos">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <p>18 anos</p>
-                <p>Temperando negócios e provando</p>
-                <p>Ótimos Resultados.</p>
+                <div style="width: 100%; height:90%">
+                    <img id="chamada" class="img-responsive chamada" src="<?= base_url(); ?>assets/images/chamada-ideias.png" alt="Ideia & Resultados. Experimente.">
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="ciquentaAgenciaDoBrasil">
+<div id="sobre-nos" class="ciquentaAgenciaDoBrasil">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center info">
-                <p>HÁ QUASE <span>DUAS DÉCADAS,</span> A <span>SPICY</span> TRAZ <span>SABOR</span> E <span>RESULTADOS</span></p>
-                <p>A GRANDES MARCAS DE DIVERSOS SEGMENTOS, CONSTRUINDO CASES NO <span>MERCADO IMOBILIÁRIO,</span></p>
-                <p>DEGUSTANDO SUCESSOS NO <span>MERCADO ALIMENTÍCIO</span> E CAMINHANDO AO LADO DO <span>MERCADO CALÇADISTA.</span></p>
-                <p><span>ENTRETENIMENTO</span> E <span>VIAGENS</span> TAMBÉM FAZEM PARTE DO NOSSO DIA E DÃO MAIS VIDA AO NOSSO TRABALHO.</p>
+            <div class="col-xs-12 col-sm-6 col-md-6 txt-1">
+                <p>PROVE</p>
+                <p>ALGO NOVO.</p>
+                <p>EXPERIMENTE</p>
+                <p style="margin-bottom: 0px;">ALGO MAIS.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 txt-2">
+                <p>
+                    Trabalhamos sua marca e olhamos<br>
+                    seu negócio como um todo,<br>
+                    de forma integrada e objetiva, do começo ao fim.<br>
+                </p>
+                <p>
+                    Comunicação total na prática: criativa e viável,<br>
+                    baseada em pesquisa e planejamento,<br>
+                    com resultados tangíveis e mensuráveis.
+                </p>
+                <p style="margin-bottom: 0px;">
+                    Procure o novo. Busque o algo mais.<br>
+                    Tente o diferente. Experimente.
+                </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <img class="img-responsive center-block logo-50" src="<?= base_url(); ?>assets/images/logo-50.png" alt="50 Maiores agências do Brasil">
@@ -71,40 +74,11 @@
     </div>
 </div>
 
-<div id="nossos-trabalhos" class="na-spicy container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 info">
-                <p class="t-1">NA SPICY,</p>
-                <p class="t-1">360º NÃO É UMA VOLTA. </p>
-                <p class="t-2"><span>É IR AO PONTO.</span></p>
-                <p class="t-3 mt-1">TRABALHAMOS <span class="t-4">SUA MARCA</span></p>
-                <p class="t-3">E OLHAMOS SEU NEGÓCIO COMO UM TODO,</p>
-                <p class="t-3">DE FORMA <span class="t-4">INTEGRADA E OBJETIVA,</span></p>
-                <p class="t-3">DO COMEÇO AO FIM.</p>
-                <p class="t-3">COMUNICAÇÃO 360º <span>NA PRÁTICA:</span></p>
-                <p class="t-3"><span>CRIATIVA E VIÁVEL, </span>BASEADA EM</p>
-                <p class="t-3"><span>PESQUISA E PLANEJAMENTO, </span></p>
-                <p class="t-3">COM <span>RESULTADOS TANGÍVEIS E MENSURÁVEIS.</span></p>
-                <p class="t-3">TUDO SEM VOLTAS. <span class="t-4">DIRETO AO PONTO.</span></p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
-                <img class="img-responsive logo-360" src="<?= base_url(); ?>assets/images/360.png" alt="É IR AO PONTO. 360º NÃO É UMA VOLTA.">
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid padding-off">
-    <img class="img-responsive" src="<?= base_url(); ?>assets/images/linha.jpg" alt="Linha">
-</div>
-
-<div class="tempero">
+<div id="nossos-trabalhos" class="tempero">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <p class="t-1">Conheça um pouco do nosso</p>
-                <p class="t-2"><span>Tempero.</span></p>
+                <p class="t-1">Conheça um pouco do nosso <span>Tempero.</span></p>
             </div>
         </div>
     </div>
@@ -174,14 +148,21 @@
                 </div>
 
                 <div class="container-img">
-                    <div class="box_200_200_25 bg-degrade-1"></div>
+                    <div class="box_200_200_25"><a class="bg-img lucianoHuck" href="#" data-toggle="modal" data-target="#videoLucianoHuck"></a></div>
                     <div class="box_200_200_25"><a class="bg-img bouts" href="#" data-toggle="modal" data-target="#videoBouts"></a></div>
                     <div class="box_200_200_25"><a class="bg-img terrasdaalvorada" href="#" data-toggle="modal" data-target="#videoTerrasdaalvorada"></a></div>
                     <div class="box_200_200_25 bg-degrade-3"></div>
                 </div>
 
-                <div class="col-xs-6 col-xs-offset-3 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 margin-top-30">
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pimenta.jpg" alt="Pimenta">
+                <div class="container-img">
+                    <div class="box_200_200_25"><a class="bg-img turnner" href="#" data-toggle="modal" data-target="#videoTurnner"></a></div>
+                    <div class="box_200_200_25 bg-degrade-1"></div>
+                    <div class="box_200_200_25"><a class="bg-img zabo" href="#" data-toggle="modal" data-target="#videoZabo"></a></div>
+                    <div class="box_200_200_25"><a class="bg-img panesse" href="#" data-toggle="modal" data-target="#videoPanesse"></a></div>
+                </div>
+
+                <div class="col-xs-6 col-xs-offset-3 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0">
+                    <img class="img-responsive center-block pimenta" src="<?= base_url(); ?>assets/images/pimenta.jpg" alt="Pimenta">
                 </div>
             </div>
         </div>
@@ -192,15 +173,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 padding-off box-1">
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                    <p class="t-1">FALANDO NISSO, COMO ESTÁ</p>
-                    <p class="t-2">O SABOR DO<br>
-                        SEU NEGÓCIO <span>HOJE?</span></p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                    <p class="t-3">VENHA EXPERIMENTAR</p>
-                    <p class="t-4"><span class="dt">NOSSAS IDEIAS</span><br>
-                        E PROVAR <span>NOVOS RESULTADOS.</span></p>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <p class="t-2">FALE COM AGENTE.<br>
+                        SÃO<span>18ANOS</span> SERVINDO <span>NOVAS IDEIAS</span>.</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 redes">
@@ -209,7 +184,7 @@
                 <a href="https://www.linkedin.com/company/spicy-comm-/?viewAsMember=true" target="_blank"><img class="img-responsive" src="<?= base_url(); ?>assets/images/icon-linkedIn.png" alt="LinkedIn"></a>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center legal">
-                <p>(11) 3842-0723 | <a href="mailto:contato@spicycomm.com.br">contato@spicycomm.com.br</a> | <a href="mailto:renata@spicycomm.com.br">renata@spicycomm.com.br</a></p>
+                <p>(11) 3842-0723 / (11) 98544-0130 | <a href="mailto:renata@spicycomm.com.br">renata@spicycomm.com.br</a></p>
             </div>
         </div>
     </div>

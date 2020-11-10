@@ -1,12 +1,22 @@
 .jobs {
     width: 100%;
+    background: url(../images/bg-jobs.jpg) no-repeat;
+    background-position: center bottom;
+    background-size: contain;
     position: relative;
     float: left;
     padding-top: 30px;
     padding-bottom: 30px;
+
     .container-img {
         margin: 0 auto;
     }
+
+    .pimenta {
+        margin-top: 70px;
+        margin-bottom: 130px;
+    }
+
     .box_200_200 {
         width: 100%;
         height: 292px;
@@ -14,6 +24,7 @@
         float: left;
         overflow: hidden;
     }
+
     .box_200_200_25 {
         width: 25%;
         height: 292px;
@@ -21,6 +32,7 @@
         float: left;
         overflow: hidden;
     }
+
     .box_200_400 {
         width: 25%;
         height: 584px;
@@ -28,132 +40,160 @@
         float: left;
         overflow: hidden;
     }
+
     .bg-cinza {
         background-color: #c0c6c9;
     }
-    .bg-degrade-1 {
-        background: url(../images/bg-degrade-1.jpg) no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    .bg-degrade-2 {
-        background: url(../images/bg-degrade-2.jpg) no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    .bg-degrade-3 {
-        background: url(../images/bg-degrade-3.jpg) no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    .bg-degrade-4 {
-        background: url(../images/bg-degrade-4.jpg) no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
+
+    .bg-degrade-1,
+    .bg-degrade-2,
+    .bg-degrade-3,
+    .bg-degrade-4,
     .bg-degrade-5 {
-        background: url(../images/bg-degrade-5.jpg) no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-color: #9a1311;
     }
+
     .bg-img {
         height: 100%;
         width: 100%;
         display: block;
         transition: all 0.5s ease;
-        filter: grayscale(100%);
+        // filter: grayscale(100%);
     }
+
     .bg-img:hover {
         transform: scale(1.2);
-        filter: grayscale(0);
+        // filter: grayscale(0);
     }
+
     .canaan {
         background: url(../images/canaan.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .terrara {
         background: url(../images/terrara.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .hotmilhas {
         background: url(../images/hotmilhas.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .merolar {
         background: url(../images/merolar.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .maisonhelena {
         background: url(../images/maisonhelena.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .milhas123 {
         background: url(../images/milhas123-01.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .varanda {
         background: url(../images/varanda.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .copacabana {
         background: url(../images/copacabana.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .sorocaba123milhas {
         background: url(../images/sorocaba123milhas-01.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .beehappy {
         background: url(../images/beehappy.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .seleto {
         background: url(../images/seleto.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .fix {
         background: url(../images/fix.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .just {
         background: url(../images/just.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .pastelandia {
         background: url(../images/pastelandia.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .bouts {
         background: url(../images/bouts.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .terrasdaalvorada {
         background: url(../images/terrasdaalvorada.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .brasileirao {
         background: url(../images/brasileirao.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
+
     .champions {
         background: url(../images/champions.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .lucianoHuck {
+        background: url(../images/lucianoHuck.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .turnner {
+        background: url(../images/tunner.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .zabo {
+        background: url(../images/zabo.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .panesse {
+        background: url(../images/panesse.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
@@ -167,15 +207,24 @@
         width: 100%;
         position: relative;
         float: left;
+
         .container-img {
             width: 100%;
         }
+
+        .pimenta {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
         .box_200_200 {
             height: 100px;
         }
+
         .box_200_200_25 {
             height: 100px;
         }
+
         .box_200_400 {
             height: 200px;
         }

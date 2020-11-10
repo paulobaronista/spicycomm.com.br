@@ -269,6 +269,66 @@
     </div>
 </div>
 
+<div class="modal" id="videoLucianoHuck" tabindex="-1" role="dialog" aria-labelledby="videoLucianoHuck">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <img class="img-responsive" src="<?= base_url(); ?>assets/images/seta.png" alt="seta">
+    </button>
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lucianoHuckModal.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="videoTurnner" tabindex="-1" role="dialog" aria-labelledby="videoTurnner">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <img class="img-responsive" src="<?= base_url(); ?>assets/images/seta.png" alt="seta">
+    </button>
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/tunnerModal.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="videoZabo" tabindex="-1" role="dialog" aria-labelledby="videoZabo">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <img class="img-responsive" src="<?= base_url(); ?>assets/images/seta.png" alt="seta">
+    </button>
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/zaboModal.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="videoPanesse" tabindex="-1" role="dialog" aria-labelledby="videoPanesse">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <img class="img-responsive" src="<?= base_url(); ?>assets/images/seta.png" alt="seta">
+    </button>
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/panesseModal.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Modal Video + Imagem -->
 <div class="modal" id="exampleModalVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalVideo">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">

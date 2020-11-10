@@ -1,6 +1,6 @@
 .navbar {
-    background-color: #0a0405;
-    border-color: #0a0405;
+    background-color: #4f555c;
+    border-color: #4f555c;
     border-radius: 0px;
     margin-bottom: 0;
     min-height: auto;
@@ -23,7 +23,7 @@
         font-style: normal;
         padding-top: 18px;
         padding-bottom: 18px;
-        color: #CC2128;
+        color: #aac64f;
     }
 
     .navbar-nav>li>a:focus,
@@ -54,15 +54,15 @@
 
         .navbar-collapse,
         .navbar-form {
-            border-color: #CC2128;
+            border-color: #aac64f;
         }
 
         .navbar-toggle {
-            border-color: #CC2128;
+            border-color: #aac64f;
         }
 
         .navbar-toggle .icon-bar {
-            background-color: #CC2128;
+            background-color: #aac64f;
         }
 
         .navbar-toggle:focus,

@@ -10,83 +10,45 @@
   margin: 15% auto 0;
 }
 
-.dezoitoanos {
-  width: 100%;
-  position: relative;
-  float: left;
-  background-image: url(../images/bg-pimenta-3.jpg), url(../images/bg-pimenta-1.jpg), url(../images/bg-pimenta-2.jpg);
-  background-position: right top, 10% top, left bottom;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  margin-top: -5px;
-  padding-top: 70px;
-  padding-bottom: 80px;
-}
-
-.dezoitoanos p {
-  font-family: 'Futura Std';
-  text-transform: uppercase;
-  font-weight: bold;
-  font-style: normal;
-}
-
-.dezoitoanos p:nth-child(1),
-.dezoitoanos p:nth-child(3) {
-  color: #9b0e17;
-}
-
-.dezoitoanos p:nth-child(2) {
-  color: #86888b;
-}
-
-.dezoitoanos p:nth-child(1) {
-  font-size: 70px;
-  line-height: 70px;
-}
-
-.dezoitoanos p:nth-child(2) {
-  font-size: 40px;
-  line-height: 40px;
-  margin-top: 10px;
-}
-
-.dezoitoanos p:nth-child(3) {
-  font-size: 50px;
-  line-height: 50px;
-  margin-top: 15px;
-}
-
 .ciquentaAgenciaDoBrasil {
   width: 100%;
   position: relative;
   float: left;
-  background: url(../images/bg-50.jpg) no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
-.ciquentaAgenciaDoBrasil .info p {
+.ciquentaAgenciaDoBrasil .txt-1 {
+  border-right: solid 2px #e0e13e;
+}
+
+.ciquentaAgenciaDoBrasil .txt-1 p {
   font-family: 'Futura Std';
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: normal;
   font-style: normal;
-  color: #fff;
-  font-size: 20px;
-  line-height: 25px;
-  margin-bottom: 10px;
+  color: #9a1311;
+  text-align: right;
+  font-size: 43px;
+  line-height: 43px;
+  margin-bottom: 30px;
+  padding-right: 50px;
 }
 
-.ciquentaAgenciaDoBrasil .info p span {
+.ciquentaAgenciaDoBrasil .txt-2 p {
   font-family: 'Futura Std';
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
-  font-size: 25x;
-  line-height: 25px;
+  color: #4f555c;
+  text-align: left;
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  padding-left: 50px;
 }
 
 .ciquentaAgenciaDoBrasil .logo-50 {
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 /* Extra Small */
@@ -96,33 +58,38 @@
   }
   .chamada {
     width: 80%;
-    margin: 30% auto 0;
-  }
-  .dezoitoanos {
-    background: url(../images/bg-18anos-mobile.jpg) no-repeat;
-    background-position: center center;
-    background-size: cover;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  .dezoitoanos p:nth-child(1) {
-    font-size: 35px;
-    line-height: 35px;
-  }
-  .dezoitoanos p:nth-child(2) {
-    font-size: 15px;
-    line-height: 15px;
-    margin-top: 5px;
-  }
-  .dezoitoanos p:nth-child(3) {
-    font-size: 20px;
-    line-height: 20px;
-    margin-top: 10px;
   }
   .ciquentaAgenciaDoBrasil {
-    background: url(../images/bg-50-mobile.jpg) no-repeat;
-    background-position: center center;
-    background-size: cover;
+    width: 100%;
+    position: relative;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .ciquentaAgenciaDoBrasil .txt-1 {
+    border-right: solid 0px transparent;
+    border-bottom: solid 2px #e0e13e;
+    padding-bottom: 20px;
+  }
+  .ciquentaAgenciaDoBrasil .txt-1 p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+  }
+  .ciquentaAgenciaDoBrasil .txt-2 {
+    padding-top: 20px;
+  }
+  .ciquentaAgenciaDoBrasil .txt-2 p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+  }
+  .ciquentaAgenciaDoBrasil .logo-50 {
+    margin-top: 30px;
   }
 }
 

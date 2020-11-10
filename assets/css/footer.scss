@@ -2,11 +2,9 @@ footer {
     width: 100%;
     position: relative;
     float: left;
-    background: url(../images/bg-footer.jpg) no-repeat;
-    background-position: center center;
-    background-size: cover;
-    padding-top: 30px;
-    padding-bottom: 25px;
+    background: #4f555c;
+    padding-top: 40px;
+    padding-bottom: 35px;
 
     p,
     a {
@@ -42,38 +40,14 @@ footer {
         font-weight: normal;
         font-style: normal;
 
-        .t-1 {
-            font-size: 15px;
-            line-height: 15px;
-            padding-bottom: 5px;
-            padding-left: 21%;
-        }
-
         .t-2 {
             font-size: 30px;
             line-height: 35px;
             text-align: center;
 
             span {
-                font-size: 35px;
                 font-weight: bold;
-            }
-        }
-
-        .t-3 {
-            font-size: 15px;
-            line-height: 15px;
-            padding-bottom: 8px;
-            padding-left: 13%;
-        }
-
-        .t-4 {
-            font-size: 15px;
-            line-height: 30px;
-
-            span {
-                font-size: 30px;
-                font-weight: bold;
+                color: #aac64f;
             }
         }
     }
@@ -82,9 +56,6 @@ footer {
 /* Extra Small */
 @media(max-width:767px) {
     footer {
-        background: url(../images/bg-footer-mobile.jpg) no-repeat;
-        background-position: center center;
-        background-size: cover;
         .box-1 {
             text-align: center;
             .t-1 {

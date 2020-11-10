@@ -196,9 +196,7 @@ p {
 }
 
 .modal {
-    background: url(../images/bg-modal.jpg) no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-color: #9a1311;
 
     .modal-body {
         padding: 0px;
@@ -230,6 +228,7 @@ p {
         background: url(../images/bg-modal-mobile.jpg) no-repeat;
         background-position: center center;
         background-size: cover;
+
         .modal-dialog {
             margin: 110px auto;
             padding-left: 10px;
